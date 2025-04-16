@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./src/assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./src/output.css" />
+  <title>Excellent School and Academy - Nurturing Minds with Modern & Islamic Education</title>
+</head>
+
+<body class="bg-gray-50">
+  <header class="bg-[#35267B] border-b-2 border-gray-200 py-3">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <nav class="flex items-center justify-between py-4 lg:h-20">
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" type="button"
+          class="lg:hidden inline-flex items-center p-2 text-white hover:bg-white/10 rounded-md">
+          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+          </svg>
+        </button>
+
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <a href="index.html" title="Home">
+            <img class="h-14 sm:h-16 lg:h-20 w-auto object-contain" src="./src/assets/logo.png" alt="School Logo" />
+          </a>
+        </div>
+
+        <!-- Desktop Navbar -->
+        <div class="hidden lg:flex lg:items-center lg:space-x-8 xl:space-x-10">
+          <a href="index.html"
+            class="text-base font-semibold text-yellow-400 border-b-2 border-yellow-400 pb-1">Home</a> <!-- Active -->
+          <a href="about.html" class="text-base font-medium text-white hover:text-yellow-300">About Us</a>
+          <a href="programs.html" class="text-base font-medium text-white hover:text-yellow-300">Programs</a>
+          <a href="admissions.html" class="text-base font-medium text-white hover:text-yellow-300">Admissions</a>
+          <a href="gallery.html" class="text-base font-medium text-white hover:text-yellow-300">Gallery</a>
+          <a href="time.html" class="text-base font-medium text-white hover:text-yellow-300">Timetable / Schedule</a>
+          <a href="contact.html" class="text-base font-medium text-white hover:text-yellow-300">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile Sidebar -->
+    <div id="mobile-menu" class="fixed inset-0 z-50 hidden bg-black bg-opacity-50">
+      <div class="bg-[#35267B] w-full h-full overflow-y-auto">
+        <!-- Close Button -->
+        <div class="flex justify-end p-4">
+          <button id="close-menu" class="text-white hover:text-yellow-500 text-3xl font-bold">
+            &times;
+          </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="flex flex-col p-4 space-y-3">
+          <a href="index.html"
+            class="py-2 text-center font-bold text-2xl text-yellow-400 border-b-2 border-yellow-400">Home</a>
+          <!-- Active -->
+          <a href="about.html" class="py-2 text-center font-bold text-2xl text-white">About Us</a>
+          <a href="programs.html" class="py-2 text-center font-bold text-2xl text-white">Programs</a>
+          <a href="admissions.html" class="py-2 text-center font-bold text-2xl text-white">Admissions</a>
+          <a href="gallery.html" class="py-2 text-center font-bold text-2xl text-white">Gallery</a>
+          <a href="time.html" class="py-2 text-center font-bold text-2xl text-white">Timetable / Schedule</a>
+          <a href="contact.html" class="py-2 text-center font-bold text-2xl text-white">Contact Us</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="bg-white">
+    <!-- Hero Section -->
+    <section id="hero" class="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+          <div>
+            <p class="text-base font-semibold tracking-wider text-blue-600 uppercase">
+              Empowering Education with AI
+            </p>
+            <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
+              Welcome to Excellent School and Academy
+            </h1>
+            <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">
+              Shaping young minds through modern teaching and smart AI-powered
+              tools. From basics to middle school, we prepare students for a
+              brighter future.
+            </p>
+            <a href="#hero"
+              class="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all duration-200 bg-yellow-400 rounded-full lg:mt-16 hover:bg-yellow-500 focus:bg-yellow-500"
+              role="button">
+              Enroll Now
+              <svg class="w-6 h-6 ml-8 -mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </a>
+            <p class="mt-5 text-gray-600">
+              Already enrolled?
+              <a href="#" title="" class="text-black transition-all duration-200 hover:underline">Login here</a>
+            </p>
+          </div>
+          <div>
+            <img class="w-full rounded-4xl" src="./src/assets/hero picture.jpg" alt="AI Powered Learning" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-12 bg-white sm:py-16 lg:py-20">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2 class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">
+            Empowering Minds with Modern & Islamic Education
+          </h2>
+          <p class="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">
+            Excellent School & Academy blends AI-powered learning with Islamic
+            values, building a brighter future for every child.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
+          <!-- Feature 1: AI-Powered Learning -->
+          <div class="md:p-8 lg:p-14">
+            <div class="flex justify-center mb-6">
+              <!-- AI Icon (Chip/Robot Icon) -->
+              <svg class="w-12 h-12 text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Example: a simplified chip icon -->
+                <rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2" />
+                <path d="M9 4V2M15 4V2M9 22v-2M15 22v-2M4 9H2M4 15h-2M22 9h-2M22 15h-2" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 font-pj">
+              AI-Powered Learning
+            </h3>
+            <p class="mt-4 text-base text-gray-600 font-pj">
+              Personalized, tech-driven learning paths help students achieve
+              excellence in academics through smart tools.
+            </p>
+          </div>
+
+          <!-- Feature 2: Quran & Ilm-e-Deen -->
+          <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200">
+            <div class="flex justify-center mb-6">
+              <!-- Quran Icon (Book Icon) -->
+              <svg class="w-12 h-12 text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Example: an open book icon -->
+                <path d="M3 4h9a2 2 0 012 2v12a2 2 0 01-2 2H3V4z" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 4h9a2 2 0 012 2v12a2 2 0 01-2 2h-9V4z" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 font-pj">
+              Quran & Ilm-e-Deen
+            </h3>
+            <p class="mt-4 text-base text-gray-600 font-pj">
+              Students learn Quran with Tajweed and essential Islamic
+              knowledge alongside their school education.
+            </p>
+          </div>
+
+          <!-- Feature 3: Darsat-e-Deeniya Course -->
+          <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200">
+            <div class="flex justify-center mb-6">
+              <!-- Darsat Icon (Scroll/Book Icon) -->
+              <svg class="w-12 h-12 text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Example: a scroll icon -->
+                <path d="M4 4h16v16H4V4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                <path d="M8 4v16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 font-pj">
+              Darsat-e-Deeniya Course
+            </h3>
+            <p class="mt-4 text-base text-gray-600 font-pj">
+              A two-year certified Islamic studies course (by Wifaq Ul
+              Madaris) covering Tafseer, Hadith, Fiqh, and more.
+            </p>
+          </div>
+
+          <!-- Feature 4: Skill Development -->
+          <div class="md:p-8 lg:p-14 md:border-t md:border-gray-200">
+            <div class="flex justify-center mb-6">
+              <!-- Skill Development Icon (Computer/Monitor Icon) -->
+              <svg class="w-12 h-12 text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Example: a computer monitor icon -->
+                <rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" stroke-width="2" />
+                <path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 font-pj">
+              Skill Development
+            </h3>
+            <p class="mt-4 text-base text-gray-600 font-pj">
+              We empower children with practical skills like Web Development,
+              Amazon, and Graphic Design for the future.
+            </p>
+          </div>
+
+          <!-- Feature 5: Scholarships for the Needy -->
+          <div class="md:p-8 lg:p-14 md:border-t md:border-gray-200 md:border-l">
+            <div class="flex justify-center mb-6">
+              <!-- Scholarship Icon (Heart or Gift Icon) -->
+              <svg class="w-12 h-12 text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Example: a gift icon -->
+                <rect x="3" y="8" width="18" height="13" rx="2" stroke="currentColor" stroke-width="2" />
+                <path d="M3 8V5a3 3 0 013-3h1a3 3 0 013 3v3" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" />
+                <path d="M18 8V5a3 3 0 00-3-3h-1a3 3 0 00-3 3v3" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" />
+                <path d="M3 13h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 font-pj">
+              Scholarships for the Needy
+            </h3>
+            <p class="mt-4 text-base text-gray-600 font-pj">
+              In association with Life Changing Foundation, we provide free
+              education to underprivileged students.
+            </p>
+          </div>
+
+          <!-- Feature 6: Smart Classrooms -->
+          <div class="md:p-8 lg:p-14 md:border-t md:border-gray-200 md:border-l">
+            <div class="flex justify-center mb-6">
+              <!-- Smart Classrooms Icon (Classroom/Chalkboard Icon) -->
+              <svg class="w-12 h-12 text-blue-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Example: a classroom icon -->
+                <rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" stroke-width="2" />
+                <path d="M3 16h18v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2z" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 font-pj">
+              Smart Classrooms
+            </h3>
+            <p class="mt-4 text-base text-gray-600 font-pj">
+              Tech-integrated classrooms enhance learning with modern tools,
+              making education more engaging and accessible.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Testimonial Section -->
+  <section id="testimonials" class="py-16 bg-gradient-to-br from-[#355c7d] via-[#6c5b7b] to-[#c06c84] backdrop-blur-sm">
+    <div class="max-w-7xl mx-auto px-6 sm:px-12">
+      <h2 class="text-3xl font-bold text-center text-white mb-12">
+        What Our Scholars and Motivational Speakers Say
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <!-- Testimonial 1 -->
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <div class="flex items-center mb-6">
+            <img src="./src/assets/sheikh.jpeg" alt="Mufti Muhiyuddin" class="w-16 h-16 rounded-full mr-4" />
+            <div>
+              <h3 class="text-lg font-semibold text-[#392A70]">
+                Mufti Muhiyuddin
+              </h3>
+              <p class="text-sm text-gray-500">
+                Sheikhul Hadith & Sheikhul Tafseer, Naqshbandi Spiritual Leader
+              </p>
+            </div>
+          </div>
+          <p class="text-base text-gray-700">
+            "The Excellent School and Academy truly upholds the values of knowledge and character, creating a nurturing
+            environment for both the mind and soul. The integration of Islamic teachings with modern education is
+            remarkable."
+          </p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <div class="flex items-center mb-6">
+            <img src="./src/assets/dr aziz.jpeg" alt="Dr. Syed Aziz Ul Rehman" class="w-16 h-16 rounded-full mr-4" />
+            <div>
+              <h3 class="text-lg font-semibold text-[#392A70]">
+                Dr. Syed Aziz Ur Rehman
+              </h3>
+              <p class="text-sm text-gray-500">
+                Director, Regional Dawah Center Karachi (Under IIU Islamabad)
+              </p>
+            </div>
+          </div>
+          <p class="text-base text-gray-700">
+            "I highly commend the Excellent School for its dedication to providing a balanced education that focuses on
+            both academic excellence and spiritual development. This is the future of educational institutions."
+          </p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <div class="flex items-center mb-6">
+            <img src="./src/assets/usman.jpeg" alt="Usman Shareef" class="w-16 h-16 rounded-full mr-4" />
+            <div>
+              <h3 class="text-lg font-semibold text-[#392A70]">
+                Usman Shareef
+              </h3>
+              <p class="text-sm text-gray-500">
+                Personal Secretary of Mufti Tariq Masood
+              </p>
+            </div>
+          </div>
+          <p class="text-base text-gray-700">
+            "The Excellent School's unique approach to integrating Islamic education with modern skills is truly
+            inspiring. It is an institution that values both character and intellect, a rare combination."
+          </p>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <div class="flex items-center mb-6">
+            <img src="./src/assets/agha.jpeg" alt="Noor Uddin Agha" class="w-16 h-16 rounded-full mr-4" />
+            <div>
+              <h3 class="text-lg font-semibold text-[#392A70]">
+                Maulana Syed Noor u Deen Agha
+              </h3>
+              <p class="text-sm text-gray-500">
+                World renowned Islamic scholar
+              </p>
+            </div>
+          </div>
+          <p class="text-base text-gray-700">
+            "This school is a shining example of how education can be a bridge between the past and the future. Their
+            commitment to nurturing both the intellectual and spiritual growth of students is commendable."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="leadership-message" class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-24 gap-y-10">
+        <!-- Leadership + Message -->
+        <div>
+          <img class="object-cover w-16 h-16 rounded-full" src="./src/assets/Afzal Kasi.jpg" alt="Principal Goals" />
+          <blockquote>
+            <p class="mt-6 text-xl leading-relaxed text-black">
+              “At Excellent School and Academy, we blend the timeless wisdom of our Islamic heritage with modern
+              technological advancements.
+              Our commitment is to nurture not only the academic excellence of our students but also their moral and
+              spiritual growth.
+              Every lesson here is a step towards building a brighter future in this world and the Hereafter.”
+            </p>
+          </blockquote>
+          <p class="mt-6 text-base font-semibold text-black">
+            Muhammad Afzal Kasi
+          </p>
+          <p class="mt-1 text-base text-gray-600">
+            Lecturer, Trainer, Life Coach, Writer, YouTuber, Blogger, Islamic Scholar, M.Phil Scholar
+          </p>
+
+          <!-- Mission -->
+          <div class="mt-8">
+            <h4 class="text-lg font-semibold text-black mb-2">🎯 Our Mission</h4>
+            <p class="text-base text-gray-700">
+              To create a society where individuals are deeply connected to Islam, spiritually strong, mentally
+              resilient, ideologically firm,
+              financially independent, socially responsible, emotionally balanced, and intellectually curious — all
+              while navigating the
+              challenges of the modern world with unwavering faith.
+            </p>
+          </div>
+
+          <!-- Vision -->
+          <div class="mt-6">
+            <h4 class="text-lg font-semibold text-black mb-2">🌟 Our Vision</h4>
+            <p class="text-base text-gray-700">
+              To raise a generation of Muslims who excel in both Deen and Dunya — leaders who reflect Islamic values,
+              embrace ethical technology, and contribute positively to the Ummah and humanity at large.
+            </p>
+          </div>
+        </div>
+
+        <!-- Call-to-Action Column -->
+        <div>
+          <div class="overflow-hidden bg-white">
+            <div class="p-8 lg:px-12 lg:py-10">
+              <h3 class="text-2xl font-semibold text-black">
+                Join our Inspiring Journey Today
+              </h3>
+              <p class="mt-4 text-base text-gray-600">
+                Discover the perfect blend of modern technology and rich Islamic studies at Excellent School and
+                Academy.
+                Secure your child's future by joining our thriving community today.
+              </p>
+
+              <a href="#apply" title="Enroll Today"
+                class="flex items-center justify-center w-full px-4 py-4 mt-8 text-base font-semibold text-black transition-all duration-200 bg-yellow-400 hover:bg-yellow-500 border-2 border-transparent rounded-md focus:bg-yellow-500"
+                role="button">
+                Enroll Today
+              </a>
+
+              <a href="#contact" title="Speak to Admissions"
+                class="flex items-center justify-center w-full px-4 py-4 mt-4 text-base font-semibold text-black transition-all duration-200 bg-transparent border-2 border-black rounded-md hover:bg-black hover:text-white focus:bg-black focus:text-white"
+                role="button">
+                Speak to Admissions
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="py-10 bg-[#35267B] border-t-2 border-gray-700 sm:pt-16 lg:pt-24" style="background-color: #35267b">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-12">
+        <!-- Column 1: About -->
+        <div class="space-y-6">
+          <img class="w-auto h-16 mb-6" src="./src/assets/logo.png" alt="School Logo" />
+          <p class="text-base leading-relaxed text-gray-300">
+            Excellent School & Academy - Integrating AI-powered education with
+            Islamic values for academic excellence and moral growth.
+          </p>
+          <div class="flex items-center space-x-4 mt-6">
+            <!-- Social Icons (you can add icons here later) -->
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+              About Us
+            </p>
+            <ul class="mt-6 space-y-4">
+              <li>
+                <a href="#our-story" class="text-gray-300 hover:text-white transition-colors">Our Story</a>
+              </li>
+              <li>
+                <a href="#mission-vision" class="text-gray-300 hover:text-white transition-colors">Mission & Vision</a>
+              </li>
+              <li>
+                <a href="#leadership" class="text-gray-300 hover:text-white transition-colors">Leadership</a>
+              </li>
+              <li>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+              Support
+            </p>
+            <ul class="mt-6 space-y-4">
+              <li>
+                <a href="admissions.html" class="text-gray-300 hover:text-white transition-colors">Admissions</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">FAQs</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-gray-300 hover:text-white transition-colors">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Column 3: Newsletter -->
+        <div class="space-y-6">
+          <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+            Stay Updated
+          </p>
+          <form class="mt-6 space-y-4">
+            <input type="email" placeholder="Enter your email"
+              class="w-full px-4 py-3 text-white bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-yellow-400" />
+            <button type="submit"
+              class="w-full px-6 py-3 font-semibold text-gray-900 bg-yellow-400 hover:bg-yellow-500 rounded-lg transition-colors">
+              Subscribe Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <hr class="my-12 border-gray-700" />
+
+      <div class="flex flex-col items-center justify-between md:flex-row">
+        <p class="text-sm text-center text-gray-400 md:text-left">
+          © 2024 Excellent School & Academy. All rights reserved.
+        </p>
+        <div class="flex space-x-6 mt-4 md:mt-0">
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            Terms of Service
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            Privacy Policy
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./src/main.js"></script>
+</body>
+
+</html>

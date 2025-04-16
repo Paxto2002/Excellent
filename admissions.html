@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./src/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Admissions - Excellent School and Academy</title>
+</head>
+
+<body>
+    <header class="bg-[#35267B] border-b-2 border-gray-200 py-3">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <nav class="flex items-center justify-between py-4 lg:h-20">
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" type="button" class="lg:hidden inline-flex items-center p-2 text-white hover:bg-white/10 rounded-md">
+              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+              </svg>
+            </button>
+    
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+              <a href="index.html" title="Home">
+                <img class="h-14 sm:h-16 lg:h-20 w-auto object-contain" src="./src/assets/logo.png" alt="School Logo" />
+              </a>
+            </div>
+    
+            <!-- Desktop Navbar -->
+            <div class="hidden lg:flex lg:items-center lg:space-x-8 xl:space-x-10">
+              <a href="index.html" class="text-base font-medium text-white hover:text-yellow-300">Home</a>
+              <a href="about.html" class="text-base font-medium text-white hover:text-yellow-300">About Us</a>
+              <a href="programs.html" class="text-base font-medium text-white hover:text-yellow-300">Programs</a>
+              <a href="admissions.html" class="text-base font-semibold text-yellow-400 border-b-2 border-yellow-400 pb-1">Admissions</a>
+              <a href="gallery.html" class="text-base font-medium text-white hover:text-yellow-300">Gallery</a>
+              <a href="time.html" class="text-base font-medium text-white hover:text-yellow-300">Timetable / Schedule</a>
+              <a href="contact.html" class="text-base font-medium text-white hover:text-yellow-300">Contact Us</a>
+            </div>
+          </nav>
+        </div>
+    
+        <!-- Mobile Sidebar -->
+        <div id="mobile-menu" class="fixed inset-0 z-50 hidden bg-black bg-opacity-50">
+          <div class="bg-[#35267B] w-full h-full overflow-y-auto">
+            <!-- Close Button -->
+            <div class="flex justify-end p-4">
+              <button id="close-menu" class="text-white hover:text-yellow-500 text-3xl font-bold">
+                &times;
+              </button>
+            </div>
+    
+            <!-- Mobile Navigation -->
+            <nav class="flex flex-col p-4 space-y-3">
+              <a href="index.html" class="py-2 text-center font-bold text-2xl text-white">Home</a>
+              <a href="about.html" class="py-2 text-center font-bold text-2xl text-white">About Us</a>
+              <a href="programs.html" class="py-2 text-center font-bold text-2xl text-white">Programs</a>
+              <a href="admissions.html" class="py-2 text-center font-bold text-2xl text-yellow-400 border-b-2 border-yellow-400">Admissions</a>
+              <a href="gallery.html" class="py-2 text-center font-bold text-2xl text-white">Gallery</a>
+              <a href="time.html" class="py-2 text-center font-bold text-2xl text-white">Timetable / Schedule</a>
+              <a href="contact.html" class="py-2 text-center font-bold text-2xl text-white">Contact Us</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+
+    <main class="py-12 px-4 bg-white">
+        <div class="max-w-5xl mx-auto space-y-12">
+
+            <!-- Admission Procedure -->
+            <section>
+                <h2 class="text-3xl font-bold text-center text-[#35267B] mb-6">Admission Procedure</h2>
+                <ul class="list-disc space-y-3 pl-6 text-gray-700 text-lg">
+                    <li>Parents must acknowledge and be satisfied with the school's curriculum, vision, mission,
+                        teaching techniques, rules & regulations, activities, and fee structure.</li>
+                    <li>Students must meet the mentioned age group criteria.</li>
+                    <li>Registration and admission test are mandatory.</li>
+                    <li>Parent's interview with the admin, principal, and section head is necessary.</li>
+                    <li>Read & sign the Terms & Conditions and follow them carefully.</li>
+                    <li>Submit all required documents and the full fee voucher.</li>
+                </ul>
+            </section>
+
+            <!-- Admission Packages Table -->
+            <section>
+                <h2 class="text-3xl font-bold text-center text-[#35267B] mb-6">Admission Packages</h2>
+                <div class="overflow-x-auto">
+                    <table class="table-auto w-full text-center border border-gray-300 shadow-md">
+                        <thead class="bg-[#35267B] text-white">
+                            <tr>
+                                <th class="px-4 py-2 border">Package Name</th>
+                                <th class="px-4 py-2 border">Admission</th>
+                                <th class="px-4 py-2 border">Annual</th>
+                                <th class="px-4 py-2 border">Monthly</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-800">
+                            <tr class="bg-gray-50">
+                                <td class="px-4 py-2 border">ESA Fee</td>
+                                <td class="px-4 py-2 border">Rs. 5000</td>
+                                <td class="px-4 py-2 border">Rs. 1000</td>
+                                <td class="px-4 py-2 border">Rs. 3000 / 6000</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-2 border">Siblings</td>
+                                <td class="px-4 py-2 border">Rs. 3000</td>
+                                <td class="px-4 py-2 border">Rs. 1000</td>
+                                <td class="px-4 py-2 border">Rs. 2500 / 5000</td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                                <td class="px-4 py-2 border">Scholarship</td>
+                                <td colspan="3" class="px-4 py-2 border">Contact with Life Changing Foundation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Paid Facilities -->
+            <section>
+                <h2 class="text-2xl font-bold text-[#35267B] mb-4">Paid Facilities:</h2>
+                <p class="text-gray-700 text-lg">
+                    Course, LMS/Portal, Dress Codes, Material Kit, Sports, Martial Arts, Lunch, Tablet, Laptop, Lab
+                    Charges, Van Fee, ID Card, STEM, Robotics, Extra Class, Visits.
+                </p>
+            </section>
+
+            <!-- Admission Form -->
+            <section>
+                <h2 class="text-3xl font-bold text-center text-[#35267B] mb-6">Admission Form</h2>
+                <form class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block mb-2 font-semibold">Student Name</label>
+                            <input type="text" class="w-full border px-4 py-2 rounded" required />
+                        </div>
+                        <div>
+                            <label class="block mb-2 font-semibold">Father Name</label>
+                            <input type="text" class="w-full border px-4 py-2 rounded" required />
+                        </div>
+                        <div>
+                            <label class="block mb-2 font-semibold">Date of Birth</label>
+                            <input type="date" class="w-full border px-4 py-2 rounded" required />
+                        </div>
+                        <div>
+                            <label class="block mb-2 font-semibold">Required Class</label>
+                            <input type="text" class="w-full border px-4 py-2 rounded" required />
+                        </div>
+                        <div>
+                            <label class="block mb-2 font-semibold">Address</label>
+                            <input type="text" class="w-full border px-4 py-2 rounded" required />
+                        </div>
+                        <div>
+                            <label class="block mb-2 font-semibold">Father CNIC</label>
+                            <input type="text" class="w-full border px-4 py-2 rounded" required />
+                        </div>
+                        <div>
+                            <label class="block mb-2 font-semibold">Father WhatsApp #</label>
+                            <input type="tel" class="w-full border px-4 py-2 rounded" required />
+                        </div>
+                        <div>
+                            <label class="block mb-2 font-semibold">Mother WhatsApp #</label>
+                            <input type="tel" class="w-full border px-4 py-2 rounded" />
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit"
+                            class="bg-[#35267B] hover:bg-[#2d2267] text-white font-semibold px-6 py-2 rounded">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Required Documents -->
+            <section>
+                <h2 class="text-2xl font-bold text-[#35267B] mb-4">Documents Required With Admission Form:</h2>
+                <ul class="list-disc space-y-2 pl-6 text-gray-700 text-lg">
+                    <li>Student B-Form or Birth Certificate</li>
+                    <li>Parent's CNIC (Photocopy)</li>
+                    <li>Previous School Leaving Certificate</li>
+                    <li>Admission Test Papers</li>
+                    <li>Parent's Interview Copy</li>
+                    <li>Application for Admission</li>
+                    <li>Fee Submission Card</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+
+<!-- FOOTER SECTION -->
+<footer class="py-10 bg-[#35267B] border-t-2 border-gray-700 sm:pt-16 lg:pt-24" style="background-color: #35267b">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-12">
+        <!-- Column 1: About -->
+        <div class="space-y-6">
+          <img class="w-auto h-16 mb-6" src="./src/assets/logo.png" alt="School Logo" />
+          <p class="text-base leading-relaxed text-gray-300">
+            Excellent School & Academy - Integrating AI-powered education with
+            Islamic values for academic excellence and moral growth.
+          </p>
+          <div class="flex items-center space-x-4 mt-6">
+            <!-- Social Icons (you can add icons here later) -->
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+              About Us
+            </p>
+            <ul class="mt-6 space-y-4">
+              <li>
+                <a href="#our-story" class="text-gray-300 hover:text-white transition-colors">Our Story</a>
+              </li>
+              <li>
+                <a href="#mission-vision" class="text-gray-300 hover:text-white transition-colors">Mission & Vision</a>
+              </li>
+              <li>
+                <a href="#leadership" class="text-gray-300 hover:text-white transition-colors">Leadership</a>
+              </li>
+              <li>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+              Support
+            </p>
+            <ul class="mt-6 space-y-4">
+              <li>
+                <a href="admissions.html" class="text-gray-300 hover:text-white transition-colors">Admissions</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">FAQs</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-gray-300 hover:text-white transition-colors">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Column 3: Newsletter -->
+        <div class="space-y-6">
+          <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+            Stay Updated
+          </p>
+          <form class="mt-6 space-y-4">
+            <input type="email" placeholder="Enter your email"
+              class="w-full px-4 py-3 text-white bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-yellow-400" />
+            <button type="submit"
+              class="w-full px-6 py-3 font-semibold text-gray-900 bg-yellow-400 hover:bg-yellow-500 rounded-lg transition-colors">
+              Subscribe Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <hr class="my-12 border-gray-700" />
+
+      <div class="flex flex-col items-center justify-between md:flex-row">
+        <p class="text-sm text-center text-gray-400 md:text-left">
+          © 2024 Excellent School & Academy. All rights reserved.
+        </p>
+        <div class="flex space-x-6 mt-4 md:mt-0">
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            Terms of Service
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            Privacy Policy
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>

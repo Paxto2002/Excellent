@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./src/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Programs - Excellent School and Academy</title>
+</head>
+
+<body class="bg-white">
+  <header class="bg-[#35267B] border-b-2 border-gray-200 py-3">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <nav class="flex items-center justify-between py-4 lg:h-20">
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" type="button" class="lg:hidden inline-flex items-center p-2 text-white hover:bg-white/10 rounded-md">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+                </svg>
+            </button>
+
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <a href="index.html" title="Home">
+                    <img class="h-14 sm:h-16 lg:h-20 w-auto object-contain" src="./src/assets/logo.png" alt="School Logo" />
+                </a>
+            </div>
+
+            <!-- Desktop Navbar -->
+            <div class="hidden lg:flex lg:items-center lg:space-x-8 xl:space-x-10">
+                <a href="index.html" class="text-base font-medium text-white hover:text-yellow-300">Home</a>
+                <a href="about.html" class="text-base font-medium text-white hover:text-yellow-300">About Us</a>
+                <a href="programs.html" class="text-base font-semibold text-yellow-400 border-b-2 border-yellow-400 pb-1">Programs</a> <!-- Active -->
+                <a href="admissions.html" class="text-base font-medium text-white hover:text-yellow-300">Admissions</a>
+                <a href="gallery.html" class="text-base font-medium text-white hover:text-yellow-300">Gallery</a>
+                <a href="time.html" class="text-base font-medium text-white hover:text-yellow-300">Timetable / Schedule</a>
+                <a href="contact.html" class="text-base font-medium text-white hover:text-yellow-300">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Mobile Sidebar -->
+    <div id="mobile-menu" class="fixed inset-0 z-50 hidden bg-black bg-opacity-50">
+        <div class="bg-[#35267B] w-full h-full overflow-y-auto">
+            <!-- Close Button -->
+            <div class="flex justify-end p-4">
+                <button id="close-menu" class="text-white hover:text-yellow-500 text-3xl font-bold">
+                    &times;
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="flex flex-col p-4 space-y-3">
+                <a href="index.html" class="py-2 text-center font-bold text-2xl text-white">Home</a>
+                <a href="about.html" class="py-2 text-center font-bold text-2xl text-white">About Us</a>
+                <a href="programs.html" class="py-2 text-center font-bold text-2xl text-yellow-400 border-b-2 border-yellow-400">Programs</a> <!-- Active -->
+                <a href="admissions.html" class="py-2 text-center font-bold text-2xl text-white">Admissions</a>
+                <a href="gallery.html" class="py-2 text-center font-bold text-2xl text-white">Gallery</a>
+                <a href="time.html" class="py-2 text-center font-bold text-2xl text-white">Timetable / Schedule</a>
+                <a href="contact.html" class="py-2 text-center font-bold text-2xl text-white">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="py-16 px-4 bg-gray-50">
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-4xl sm:text-5xl font-bold text-center text-[#35267B] mb-14">Our Programs</h1>
+
+    <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+
+      <!-- Excellent School -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h2 class="text-2xl font-bold text-[#35267B] mb-4">A. Excellent School</h2>
+        <p class="text-gray-700 mb-4">
+          Our <span class="font-bold text-orange-500 p-1">Excellent School</span> program offers a comprehensive education for children from <span class="font-bold text-orange-500 p-1">Nursery to Class 8</span>, within a span of <span class="font-bold text-orange-500 p-1">3 years</span>. We focus on providing quality education that builds a strong foundation for students in both academic and personal growth. Our curriculum integrates modern teaching techniques with traditional values, ensuring that students excel in core subjects while developing strong moral values.
+        </p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-2 mb-4">
+          <li>Hands-on activities and learning through practical experiences.</li>
+          <li>Personalized mentoring and guidance to ensure each student achieves their potential.</li>
+          <li>Strong focus on extracurricular activities such as sports, arts, and music.</li>
+          <li>Preparation for competitive exams and a smooth transition to higher education.</li>
+        </ul>
+        <p class="text-gray-700">With a nurturing environment and a dedicated team of educators, we aim to produce well-rounded individuals ready to face the future with confidence.</p>
+      </div>
+
+      <!-- Excellent Academy -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h2 class="text-2xl font-bold text-[#35267B] mb-4">B. Excellent Academy</h2>
+        <p class="text-gray-700 mb-4">
+          The <span class="font-bold text-orange-500 p-1">Excellent Academy</span> is dedicated to providing specialized coaching for students preparing for <span class="font-bold text-orange-500 p-1">Matric</span>, <span class="font-bold text-orange-500 p-1">FA</span>, <span class="font-bold text-orange-500 p-1">FSC</span>, <span class="font-bold text-orange-500 p-1">BA</span>, and <span class="font-bold text-orange-500 p-1">BSc</span> exams. Our academy offers in-depth subject knowledge and effective study techniques to help students achieve excellent results in their board exams and entrance tests.
+        </p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-2 mb-4">
+          <li>Experienced faculty with a proven track record of academic success.</li>
+          <li>Interactive classes that focus on critical thinking and problem-solving.</li>
+          <li>Comprehensive study material and practice tests to ensure exam readiness.</li>
+          <li>Regular assessments and feedback to track student progress.</li>
+        </ul>
+        <p class="text-gray-700">Our aim is to not only help students pass their exams but to equip them with the skills necessary for higher education and professional success.</p>
+      </div>
+
+      <!-- Tuition Classes -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h2 class="text-2xl font-bold text-[#35267B] mb-4">C. Tuition Classes</h2>
+        <p class="text-gray-700 mb-4">
+          Our <span class="font-bold text-orange-500 p-1">Tuition Classes</span> offer personalized, one-on-one or small group tutoring for students from <span class="font-bold text-orange-500 p-1">Nursery to FSC</span>. Whether students need help with basic subjects or specialized coaching in advanced topics, our tuition classes are designed to bridge learning gaps and ensure academic excellence.
+        </p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-2 mb-4">
+          <li>Subjects include Mathematics, Science, Social Studies, English, Urdu, and more.</li>
+          <li>Customized study plans based on the student’s learning pace and style.</li>
+          <li>Extra attention to weak subjects to ensure comprehensive learning.</li>
+          <li>Flexible class schedules to accommodate students’ needs.</li>
+        </ul>
+        <p class="text-gray-700">Our experienced tutors create a positive learning environment that encourages student participation and fosters a love for learning.</p>
+      </div>
+
+      <!-- Languages -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h2 class="text-2xl font-bold text-[#35267B] mb-4">D. Languages</h2>
+        <p class="text-gray-700 mb-4">
+          Language skills are essential in today’s globalized world, and our <span class="font-bold text-orange-500 p-1">Language Programs</span> offer both English and Arabic language courses. Whether you're a beginner or looking to improve your advanced skills, we have courses tailored for every level.
+        </p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-2 mb-4">
+          <li><span class="font-semibold">English Language:</span> Learn English speaking, writing, and grammar from basic to advanced levels, with a focus on conversational English, pronunciation, and writing skills.</li>
+          <li><span class="font-semibold">Arabic Language:</span> This program helps students learn Arabic, starting from basic grammar and vocabulary to advanced reading, writing, and speaking skills.</li>
+        </ul>
+        <p class="text-gray-700">Our language programs are perfect for those looking to improve their professional communication skills or seeking proficiency in Arabic for religious and academic purposes.</p>
+      </div>
+
+      <!-- Islamic Education -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h2 class="text-2xl font-bold text-[#35267B] mb-4">E. Islamic Education</h2>
+        <p class="text-gray-700 mb-4">
+          Our <span class="font-bold text-orange-500 p-1">Islamic Education</span> program is designed to impart foundational knowledge of Islamic studies, including Quranic teachings, Tafseer, Tajweed, and more. It provides students with a deeper understanding of Islamic principles and spirituality.
+        </p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-2 mb-4">
+          <li><span class="font-semibold">Nazra, Hifz-ul-Quran:</span> Learn to read the Quran with proper pronunciation and memorization (Hifz).</li>
+          <li><span class="font-semibold">Tajweed & Qiraat:</span> Study the rules of Quranic pronunciation and recitation.</li>
+          <li><span class="font-semibold">Translation & Tafseer:</span> Understand the meanings and interpretations of the Quran.</li>
+          <li><span class="font-semibold">Dirasat-e-Deeniya:</span> Advanced Islamic courses covering Islamic law, ethics, and theology.</li>
+        </ul>
+        <p class="text-gray-700">Our program ensures that students not only gain knowledge but also develop a strong spiritual foundation to live according to Islamic values.</p>
+      </div>
+
+      <!-- Computer Education -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h2 class="text-2xl font-bold text-[#35267B] mb-4">F. Computer Education</h2>
+        <p class="text-gray-700 mb-4">
+          In today’s digital world, computer literacy is indispensable. Our <span class="font-bold text-orange-500 p-1">Computer Education</span> program offers courses that cater to students at various levels, from beginners to advanced learners.
+        </p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-2 mb-4">
+          <li><span class="font-semibold">DIT, ADIT:</span> Diploma in Information Technology (DIT) and Advanced Diploma in Information Technology (ADIT) to equip students with industry-standard skills.</li>
+          <li><span class="font-semibold">MS Office & Graphic Designing:</span> Learn essential skills in Microsoft Office and graphic design tools for professional use.</li>
+          <li><span class="font-semibold">Amazon & e-Commerce:</span> Learn the fundamentals of online business, starting your e-commerce venture, and using Amazon for selling products.</li>
+          <li><span class="font-semibold">Freelancing & Earning from Home:</span> Discover how to make money online through freelancing and various online opportunities.</li>
+        </ul>
+        <p class="text-gray-700">Our computer education courses are perfect for those looking to enter the tech industry, start their own business, or enhance their existing skills.</p>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h2 class="text-2xl font-bold text-[#35267B] mb-4">G. Technical Skills</h2>
+        <p class="text-gray-700 mb-4">
+          Our <span class="font-bold text-orange-500 p-1">Technical Skills</span> program is designed to provide students with hands-on, practical skills that are in high demand across various industries.
+        </p>
+        <ul class="list-disc pl-5 text-gray-700 space-y-2 mb-4">
+          <li><span class="font-semibold">Dress Stitching & Cutting:</span> Learn the fundamentals of fashion design, stitching, and garment construction.</li>
+          <li><span class="font-semibold">Beautician Course:</span> Gain the skills to provide beauty treatments, skincare, haircuts, and styling.</li>
+          <li><span class="font-semibold">Cooking & Baking:</span> Master the art of cooking and baking, from traditional recipes to modern dishes.</li>
+          <li><span class="font-semibold">Mobile Repairing:</span> Learn to repair mobile phones, troubleshoot problems, and replace parts.</li>
+        </ul>
+        <p class="text-gray-700">Our technical skills courses provide students with the opportunity to acquire marketable skills that can help them pursue careers or entrepreneurial ventures.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+              
+    <!-- FOOTER SECTION -->
+  <footer class="py-10 bg-[#35267B] border-t-2 border-gray-700 sm:pt-16 lg:pt-24" style="background-color: #35267b">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-12">
+        <!-- Column 1: About -->
+        <div class="space-y-6">
+          <img class="w-auto h-16 mb-6" src="./src/assets/logo.png" alt="School Logo" />
+          <p class="text-base leading-relaxed text-gray-300">
+            Excellent School & Academy - Integrating AI-powered education with
+            Islamic values for academic excellence and moral growth.
+          </p>
+          <div class="flex items-center space-x-4 mt-6">
+            <!-- Social Icons (you can add icons here later) -->
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+              About Us
+            </p>
+            <ul class="mt-6 space-y-4">
+              <li>
+                <a href="#our-story" class="text-gray-300 hover:text-white transition-colors">Our Story</a>
+              </li>
+              <li>
+                <a href="#mission-vision" class="text-gray-300 hover:text-white transition-colors">Mission & Vision</a>
+              </li>
+              <li>
+                <a href="#leadership" class="text-gray-300 hover:text-white transition-colors">Leadership</a>
+              </li>
+              <li>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+              Support
+            </p>
+            <ul class="mt-6 space-y-4">
+              <li>
+                <a href="admissions.html" class="text-gray-300 hover:text-white transition-colors">Admissions</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">FAQs</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-gray-300 hover:text-white transition-colors">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Column 3: Newsletter -->
+        <div class="space-y-6">
+          <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+            Stay Updated
+          </p>
+          <form class="mt-6 space-y-4">
+            <input type="email" placeholder="Enter your email"
+              class="w-full px-4 py-3 text-white bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-yellow-400" />
+            <button type="submit"
+              class="w-full px-6 py-3 font-semibold text-gray-900 bg-yellow-400 hover:bg-yellow-500 rounded-lg transition-colors">
+              Subscribe Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <hr class="my-12 border-gray-700" />
+
+      <div class="flex flex-col items-center justify-between md:flex-row">
+        <p class="text-sm text-center text-gray-400 md:text-left">
+          © 2024 Excellent School & Academy. All rights reserved.
+        </p>
+        <div class="flex space-x-6 mt-4 md:mt-0">
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            Terms of Service
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            Privacy Policy
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
