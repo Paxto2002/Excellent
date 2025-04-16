@@ -1,8 +1,0 @@
-[build]
-  publish = "."
-  command = "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
